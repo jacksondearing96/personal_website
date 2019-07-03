@@ -1,0 +1,522 @@
+<!--
+        ______________________________________
+        | 									                   |
+        |    ______  JACKSON DEARING  _____    |
+        |    _________ HTML RESUME ________    |
+        |______________________________________|
+
+-->
+
+<DOCTYPE html>
+  <html lang="en">
+
+    <head>
+      <meta charset="utf-8"/>
+      <title>Jackson Dearing - Resume</title>
+
+      <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:300,600,300i" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+
+      <style>
+        body 
+        {
+          background-color:lightgrey;
+          margin:0px;
+          font-family: 'Montserrat', verdana;
+          font-weight: 300;
+          font-size:13px;
+        }
+
+        img
+        {
+          display: none !important;
+        }
+
+        a 
+        {
+          text-decoration:none;
+          color:inherit;
+        }
+
+        a:hover, .collapseArrow
+        {
+          cursor: pointer;
+        }
+
+        ul 
+        {
+          list-style-type:circle;
+        }
+
+        .center 
+        {
+          text-align:center;
+        }
+
+        .page 
+        {
+          width: 21cm;
+          height: 29.7cm;
+          margin: 0 auto;
+          background-color: white;
+          padding: 5px;
+          padding-top: 10px;
+          margin-top: 10px;
+          margin-bottom: 20px;
+        }
+
+        h1 
+        {
+          display:inline-block;
+          margin: 0px;
+          margin-top: 20px;
+          margin-left:15px;
+          font-size:36px;
+          letter-spacing:3px;
+          font-weight:lighter;
+        }
+
+        #contactInfo 
+        {
+          float:right;
+          text-align:right;
+          padding-right:10px;
+        }
+
+        #contactInfo p
+        {
+          margin: 0px;
+          margin-bottom: 3px;
+        }
+
+        #contactInfo b 
+        {
+          margin-right:4px;
+        }
+
+        #header
+        {
+          margin-bottom: 24px;
+        }
+
+        #header i
+        {
+          margin-right:4px;
+        }
+
+        .section
+        {
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
+
+        h2 
+        {
+          font-weight: normal;
+          display: block;
+          text-align: center;
+          background-color: rgb(240,240,240);
+          margin: 0px;
+          letter-spacing: 1px;
+          font-size: 16px;
+          padding: 3px;
+        }
+
+        .collapseArrow
+        {
+          float:right;
+          color:grey;
+        }
+
+        #educationTable
+        {
+          width: 70%;
+          font-size: 13px;
+          margin-bottom: 10px;
+          margin-top: 10px;
+          margin-left: 20px;
+        }
+
+        .educationAchievements
+        {
+          display: inline-block;
+          max-width: 46%;
+          margin: 0px;
+          margin-bottom: 10px;
+        }
+
+        #jobListTitles
+        {
+          margin-left: 285px;
+          margin-top: 8px;
+        }
+
+        #jobListTitles p 
+        {
+          display:inline;
+          padding-right:250px;
+          font-weight: normal;
+        }
+
+        .job 
+        {
+          margin-top:8px;
+          display:flex;
+          align-items:center;
+          padding: 0px;
+        }
+
+        .job h3 
+        {
+          font-weight: normal;
+          margin: 0px;
+          margin-bottom: -8px;
+        }
+
+        .jobLeft 
+        {
+          min-width: 140px;
+          max-width: 140px;
+          margin-right:10px;
+          margin-left: 25px;
+        }
+
+        .jobPosition 
+        {
+          font-weight: bold;
+        }
+
+        #volunteeringAndExtraCurricularSection
+        {
+          margin-top: -5px;
+        }
+
+        #volunteeringAndExtraCurricularContent
+        {
+          display: block;
+          text-align: center;
+          display: flex;
+          justify-items: space-between;
+        }
+
+        #volunteeringAndExtraCurricularSection .activity
+        {
+          display: inline-block;
+          width: 25%;
+          margin: 0px;
+          padding-right: 10px;
+          margin-left: 10px;
+          height: 150px;
+        }
+
+        .activity p 
+        {
+          font-weight: bold;
+          min-height: 45px;
+          max-height: 45px;
+          vertical-align: middle;
+          margin-bottom: 0px;
+        }
+
+        #volunteeringAndExtraCurricularSection ul
+        {
+          padding-left: 20px;
+          text-align: left;
+        }
+
+        #personalProjects h2
+        {
+          margin-bottom: 10px;
+        }
+
+        #personalProjects p, #personalProjects ul
+        {
+          margin: 0px;
+          margin-left: 20px;
+        }
+
+        .project
+        {
+          display:flex;
+          align-items:center;
+          padding: 0px;
+          margin-bottom: 10px;
+        }
+
+        .projectTitle
+        {
+          font-weight: bold;
+          min-width: 140px;
+          max-width: 140px;
+          margin-right:10px;
+        }
+
+        #referencesSection
+        {
+          margin-top: 10px;
+        }
+
+        #references 
+        {
+          display:flex;
+          align-items:center;
+          justify-content:space-around;
+          margin-top:8px;
+          margin-right:40px;
+        }
+
+        #references div 
+        {
+          text-align:center;
+        }
+
+        .refereeName 
+        {
+          font-weight: bold;
+        }
+
+
+      </style>
+    </head>
+
+    <body>
+      <div class = "page">
+
+        <div id = "header">
+          <h1>Jackson Dearing</h1>
+
+          <div id = "contactInfo">
+            <p><i class="fas fa-phone"></i> +61 450 263 585</p>
+            <p><i class="far fa-envelope"></i> jackson.dearing@student.adelaide.edu.au</p>
+            <p><i class="fas fa-home"></i> 9 Kirra Avenue, West Lakes Shore, SA, 5020</p>
+            <p><i class="fab fa-linkedin"></i> https://www.linkedin.com/in/jackson-dearing-2806a716a</p>
+          </div>
+        </div> <!-- end header -->
+
+        <div class = "section">
+          <h2>EDUCATION</h2>
+          <table id = "educationTable">
+            <tr>
+              <td><b>Trinity College:</b></td>
+              <td>High school, SACE Stage 1 and 2</td>
+              <td>- ATAR: 99.95<br/></td>
+            </tr>
+
+            <tr>
+              <td><b>University of Adelaide:</b></td>
+              <td>Bachelor of Engineering (Honours)(Software)</td>
+              <td>- GPA: 7.000<br/></td>
+            </tr>
+          </table>
+
+             <ul class = "educationAchievements">
+               <li>Adelaide University Undergraduate Scholarship</li>
+               <li>Executive Dean's Award for Academic Excellence</li>
+               <li>Iacopetta Shield - Dux of Trinity College</li>
+               <li>Mabel Tapp Prize for Mathematics</li>
+            </ul>
+
+            <ul class = "educationAchievements">
+              <li>Australian Student Prize</li>
+               <li>Santos Petroleum Engineering Scholarship</li>
+               <li>B.E.H(Pe) Dux, 1st, 3rd Years</li>
+               <li>SPE SA Chapter Scholarship 2016, 2017 </li>
+            </ul>
+        </div>
+        <!-- End Education section -->
+
+        <div class = "section">
+          <h2>EXPERIENCE</h2>
+
+          <div class = "job">
+            <div class = "jobLeft">
+              <a href="https://www.cea.com.au/!Global/Directory.php?Location=Home:Home">
+                <img id = "ceaLogo" src = "cea_logo.png" alt = "CEA Technologies Logo">
+                <h3>CEA Technologies</h3>
+                <p><span class = "jobPosition">Software Engineering Intern</span><br/>2018/19 Summer</p>
+              </a>
+            </div>
+
+            <ul class = "jobMiddle">
+              <li>Developed a GUI tool to calibrate phased-array radars and visualise resultant data</li>
+              <li>Reduced calibration times from a day to minutes</li>
+              <li>Eliminated the requirement of an engineer's involvement in the calibration process</li>
+              <li>Improved personal coding skills and style by following strict quality standards</li>
+            </ul>
+          </div>
+
+          <div class = "job">
+            <div class = "jobLeft">
+              <a href = "https://www.adelaide.edu.au/">
+                <img id = "uOfALogo" alt="University of Adelaide logo">
+                <h3>University of Adelaide</h3>
+                <p><span class = "jobPosition">Teaching Assistant</span><br/>2017 - 2018</p>
+              </a>
+            </div>
+
+            <ul class = "jobMiddle">
+              <li>Conducted tutorial and practical sessions</li>
+              <li>Developed skills in public speaking and explanation of technical knowledge</li>
+              <li>Successfully encouraged multiple degree changes into computer science fields</li>
+            </ul>                            
+          </div>
+
+          <div class = "job">
+            <div class = "jobLeft">
+              <a href = "https://saab.com/region/saab-australia/">
+                <img id = "saabLogo" alt="SAAB Technologies logo">
+                <h3>SAAB</h3>
+                <p><span class = "jobPosition">Project Assistant</span><br/>2017/18 Summer</p>
+              </a>
+            </div>
+
+            <ul class = "jobMiddle">
+              <li>Procured and organised spreadsheet of project assets (8000+)</li>
+              <li>Configured and tested site technology (CCTV cameras, zero clients)</li>
+              <li>Installed equipment for Factory Acceptance Testing</li>
+            </ul>
+          </div>
+
+          <div class = "job">
+            <div class = "jobLeft">
+              <a href = "https://www.sunpeaksresort.com/">
+                <h3>Sun Peaks Resort</h3>
+                <p><span class = "jobPosition">Ticketing</span><br/>14/15, 15/16  Canadian Winters</p>
+              </a>
+            </div>
+
+            <ul class = "jobMiddle">
+              <li>Developed experience in sales and cash handling and company promotion</li>
+              <li>Exposed fraudulent misuse of company products</li>
+              <li>Enhanced resilience by working in extreme temperature conditions</li>
+            </ul>
+
+          </div>
+
+        </div> <!-- End Experience section -->
+
+        <div class = "section" id = "volunteeringAndExtraCurricularSection">
+            <h2>VOLUNTEERING AND EXTRA CURRICULAR</h2>
+  
+            <div id = "volunteeringAndExtraCurricularContent">
+  
+            <div class = "activity">
+              <a href = "http://uniblacksfc.com.au/">
+              <p>Adelaide University Football Club Exec. Committee</p>
+              <ul>
+                <li>Organisation of social events</li>
+                <li>Co-editor of the weekly newsletter, 
+                  <i>The Substandard</i></li>
+              </ul>
+              </a>
+            </div>
+  
+            <div class = "activity">
+              <p>UofA Intervarsity Football Team,
+                  Vice Captain</p>
+              <ul>
+                <li>Competing interstate</li>
+                <li>Recruiting, organisation and selection</li>
+              </ul>
+            </div>
+  
+            <div class = "activity">
+              <p>Red Cross Blood/Plasma Donor</p>
+              <ul>
+                <li>Regular Donations of blood and plasma to the Red Cross </li>
+              </ul>
+            </div>
+  
+            <div class = "activity">
+              <p>Australian Uni-Games Representative</p>
+              <ul>
+                <li>Representing UofA interstate</li>
+                <li>Maintaining team cohesion and enjoyment</li>
+              </ul>
+            </div>
+  
+            <div class = "activity">
+              <p>Marathon Competitor</p>
+              <ul>
+                <li>Self motivation</li>
+                <li>Project: 
+                  <i>"Effective Training Methods for a First Marathon"</i>
+                </li>
+              </ul>
+            </div> 
+  
+            </div> <!-- end volunteering + extra curricular content -->
+
+          </div> <!-- end volunteering + extra curricular section -->
+
+        <div id = "personalProjects" class = "section">
+          <h2>PERSONAL PROJECTS</h2>
+
+          <div class = "project">
+              <div class = "projectTitle">
+                  <p><span class = "jobPosition">Football Results Automation Tool</span></p>
+              </div>
+  
+              <ul class = "projectDescription">
+                <li>Locates, extracts and styles football results for weekly newsletter sent to ~2000 subscribers. 
+                    Automation of task saves 1 hour per week</li>
+                <li>Web application, node.js, Javascript, HTML, CSS, Puppetteer API</li>
+              </ul>
+          </div>
+
+          <div class = "project">
+              <div class = "projectTitle">
+                  <p><span class = "jobPosition">Sudoku Solver Visualisation</span></p>
+              </div>
+  
+              <ul class = "projectDescription">
+                <li>Solves arbitrary sudoku problems whilst visualising backtracking algorithm</li>
+                <li>Android application, C++, Qt</li>
+              </ul>
+          </div>
+
+          <div class = "project">
+              <div class = "projectTitle">
+                  <p><span class = "jobPosition">Chess Game</span></p>
+              </div>
+  
+              <ul class = "projectDescription">
+                <li>Console application, C++</li>
+              </ul>
+          </div>
+          
+        </div>
+
+        <div id = "referencesSection" class = "section">
+          <h2>REFEREES</h2>
+
+          <div id = "references">
+            <div>
+              <a href = "https://www.adelaide.edu.au/directory/yung.ngothai">
+                <span class = "refereeName">Assoc. Prof. Yung Ngothai</span>
+              </a><br>
+              University of Adelaide<br>
+              Lecturer and Employer<br>
+              8313 5445
+            </div>
+
+            <div>
+              <span class = "refereeName">Clare Forster</span><br>
+              CEA Technologies<br>
+              Supervisor - Senior Software Engineer<br>
+              +612 6213 0168
+            </div>
+
+            <div>
+              <span class = "refereeName">Joshua Stewart</span><br>
+              Football Teammate<br>
+              +614 0257 8491
+            </div>
+          </div>
+
+        </div> <!-- end references section -->
+       </div> <!-- end first page -->
+   
+    </body>
+  </html>
