@@ -1,0 +1,201 @@
+body {
+  padding-top: 56px;
+  font-weight: 300;
+}
+
+h1 {
+  font-weight: 200 !important;
+  letter-spacing: 0.1em;
+}
+
+h2 {
+  font-weight: 200;
+}
+
+h3 {
+  font-size: 18px;
+  float:left;
+}
+
+.left {
+  float: left;
+  clear:left;
+  text-align: left;
+}
+
+.right {
+  clear: left;
+  clear: right;
+  float: right;
+  text-align: right;
+}
+
+i {
+  font-size: 23px;
+  margin: 10px;
+}
+
+.header-icon:hover {
+  color: white !important;
+}
+
+.header-icon {
+  font-size: 23px;
+}
+
+#more-info {
+  display: inline;
+  margin-left: 15px;
+}
+
+.pointer:hover
+{
+  cursor: pointer;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.nudge-up-10 {
+  margin-top: -10px;
+}
+
+.email-address {
+  color: inherit;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  height:40px;
+  width:40px;
+  margin-top:25px;
+  margin-bottom:25px;
+  border-width:solid 1px;
+  border-color: blue;
+}
+
+.card-footer {
+  width: 100%;
+  border: transparent;
+  background-color: transparent;
+}
+
+.title-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 8px;
+  margin-top: 60px;
+}
+
+#first-title-icon {
+  margin-top: 0px;
+}
+
+.company-logo {
+  max-height:70px;
+  max-width:70px;
+  margin-top:40px;
+  margin-bottom:10px;
+}
+
+#uni-games-logo {
+  max-width: 150px;
+  width: 125px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+#first-company-logo {
+  margin-top:0px;
+}
+
+.left-divider {
+  border-left: solid 0.8px lightgrey;
+}
+
+.right-divider {
+  border-right: solid 0.8px lightgrey;
+}
+
+#contact-info {
+  margin-bottom:0px !important;
+}
+
+i {
+  font-size: inherit;
+}
+
+#marathon-title {
+  margin-top:20px;
+}
+
+.project-icon {
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.center {
+  float: none;
+}
+
+.top-buffer {
+  margin-top: 40px;
+}
+
+.bottom-buffer {
+  margin-bottom: 40px;
+}
+
+.project-row {
+  margin-top: 100px;
+}
+
+.technology-list li {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.technology-logo {
+  max-height: 35px;
+  margin-right: 20px;
+}
+
+#puppeteer-logo {
+  max-height: 40px;
+  height: 40px;
+}
+
+.dark {
+  background-color: rgb(32,32,32);
+}
+
+header img {
+  width: 100%;
+  filter: brightness(35%);
+}
+
+.navbar {
+  position: absolute;
+}
+
+.name {
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+#camera-icon {
+  width: 8%;
+  z-index: 100;
+  position: absolute;
+  top: calc(50% - 4%);
+  left: calc(50% - 4%);
+  filter: brightness(100%);
+}

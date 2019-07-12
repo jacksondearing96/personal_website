@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Jackson Dearing</title>
+  <script src="front-page.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/business-frontpage.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home
+              <span class="sr-only">(current)</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="experience.html">Experience</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="projects.html">CS Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="photography.html">Photography</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="bg-primary py-5 mb-5">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-12">
+          <h1 class="display-4 text-white mt-5 mb-2">Jackson Dearing</h1>
+
+          <a class="pointer" href="https://github.com/jacksondearing96">
+            <i class="fab fa-github text-white-50 header-icon"></i>
+          </a>
+          <a class="pointer" href="https://www.linkedin.com/in/jackson-dearing-2806a716a">
+            <i class="fab fa-linkedin text-white-50 header-icon"></i>
+          </a>
+          <i class="fas fa-home pointer text-white-50 header-icon" onclick="ShowMoreInfo('9 Kirra Avenue, West Lakes Shore, 5020, SA, Australia')"></i>
+          <i class="far fa-envelope pointer text-white-50 header-icon" onclick="ShowMoreInfo('jackson.dearing@student.adelaide.edu.au')"></i>
+          <i class="fas fa-phone pointer text-white-50 header-icon" onclick="ShowMoreInfo('+61450263584')"></i>
+
+          <p id="more-info" class="lead text-white-50"></p>
+            
+          <p class="lead mb-5 text-white-50">Software engineering student motivated by the opportunity to solve problems and develop software based solutions. 
+            <br>
+            I enjoy contributing in team based environments and am naturally driven by a passion for software development.
+          </p>
+         </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Page Content -->
+  <div class="container">
+
+    <div class="row text-center">
+      <div class="col-12">
+          <img id="first-title-icon" class="project-icon" src="img/subAutoImg.png">
+      </div>
+      <div class="col-12">
+          <h2>Football Results Automation Tool</h2>
+          <hr>
+      </div>
+
+      <div class="col-5 text-center">
+        <h3 class="center">Problem</h3>
+        <p class="left">Manual process required 1-2 hours of work every week.
+        <br><br>Whilst compiling the football club's weekly newsetter for the roughly 2000 subscribers, time-consuming manual information collation and styling was required. This involved finding and presenting information relevant to match results, game times, oppositions, locations, dates etc... for each of the 9 teams. 
+        </p>
+      </div>
+      <div class="col-5 text-center left-divider right-divider">
+        <h3 class="center">Solution</h3>
+        <p class="left">Reduces time to complete task from 1-2 hours down do approximately 1 minute. Greatly improves visual display.
+        <br><br>The Football Results Automation Tool is a web application uses Google's Puppeteer API alongside Headless Chrome to automatically find and extract all information relevant to the club's weekly results.
+        <br>It also provides a rich display which is directly portable into the MailChimp emailing service.
+        </p>
+      </div>
+      <div class="col-2 text-center">
+        <h3 class="center">Technologies</h3>
+        <ul class="technology-list">
+          <li><img class="technology-logo" src="img/javascript-logo.png"></li>
+          <li><img class="technology-logo" src="img/html-logo.png"></li>
+          <li><img class="technology-logo" src="img/css-logo.png"></li>
+          <li><img class="technology-logo" src="img/node-js-logo.png"></li>
+          <li><img class="technology-logo" src="img/chromium-logo.png"></li>
+          <li><img class="technology-logo" src="img/puppeteer-logo.png" id="puppeteer-logo"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row text-center project-row">
+      <div class="col-12">
+          <img id="first-title-icon" class="project-icon" src="https://image.flaticon.com/icons/svg/149/149192.svg">
+      </div>
+      <div class="col-12">
+          <h2>Radar Calibration Tool</h2>
+          <hr>
+      </div>
+      <div class="col-5 text-center">
+          <h3 class="center">Problem</h3>
+          <p class="left">Error-prone, labour-intensive and unscalable calibration process required a day to complete.
+          <br><br>At CEA Technologies, the previous process for calibrating phased-array radars involved using a set of MATLAB scripts to process experimental data. These scripts were required to be ammended for each different variation of calibration which resulted highly error-prone and caused rapid code degradation. The process required a technician to email the experimental results to an engineer who would process the results using the MATLAB scripts and return to the technician for troubleshooting, taking approximately 1 day in total.
+          </p>
+      </div>
+      <div class="col-5 text-center left-divider right-divider">
+          <h3 class="center">Solution</h3>
+          <p class="left">Completely eliminated the requirement of an engineer in the calibration process and reduced calibration times from a day to just minutes.
+          <br><br>The Radar Calibration Tool provided a comprehensive graphical user interface used to configure calibration parameters, eliminating the need to modify code for each calibration. 
+          <br>The tool also provided various data visualisations of the calibration result including 3D spatial plotting and heat maps. These allowing technicians to quickly and more easily understand and diagnose problems.
+          </p>
+      </div>
+      <div class="col-2 text-center">
+        <h3 class="center">Technologies</h3>
+        <ul class="technology-list">
+          <li><img class="technology-logo" src="img/windows-logo.png"></li>
+          <li><img class="technology-logo" src="img/cpp-logo.png"></li>
+          <li><img class="technology-logo" src="img/qt-logo.png"></li>
+          <li><img class="technology-logo" src="img/visual-studio-logo.png"></li>
+          <li><img class="technology-logo" src="img/svn-logo.png"></li>
+          <li>GTEST</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row text-center project-row">
+      <div class="col-12">
+        <img id="first-title-icon" class="project-icon" src="https://image.flaticon.com/icons/svg/547/547166.svg">
+      </div>
+      <div class="col-12">
+        <h2>Money Tracker</h2>
+        <hr>
+      </div>
+      <div class="col-5 text-center">
+        <h3 class="center">Problem</h3>
+        <p class="left">No practical way to see how money is being spent or trends over time from multiple accounts.
+        <br><br>Bank statements are largely unhelpful, presenting every transaction individually without any ability to analyse trends over time, group related transactions or maintain more meaningful descriptions. This problem is amplified when finances are distributed across multiple accounts.
+      </div>
+      <div class="col-5 text-center left-divider right-divider">
+        <h3 class="center">Solution</h3>
+        <p class="left">Indexes and organises every transaction across multiple accounts and provides insights to relative spending and trends over time.
+        <br><br>Money Tracker takes bank statement in PDF format and extracts every transaction into an SQL database. Transactions can then be categorised into a set of hierarchial tags. This then allows multiple data visualisations to be generated, including pie charts of comparitive spending and graphs of weekly/monthly/yearly spending trends in any category.
+        </p>
+        </div>
+      <div class="col-2 text-center">
+        <h3 class="center">Technologies</h3>
+        <ul class="technology-list">
+          <li><img class="technology-logo" src="img/python-logo.png"></li>
+          <li><img class="technology-logo" src="img/mysql-logo.png"></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row text-center project-row bottom-buffer">
+      <div class="col-12">
+          <img id="first-title-icon" class="project-icon" src="https://image.flaticon.com/icons/svg/149/149168.svg">
+      </div>
+      <div class="col-12">
+          <h2>SUDOKU Solver</h2>
+          <hr>
+      </div>
+      <div class="col-5 text-center">
+          <h3 class="center">Problem</h3>
+          <p>Arbitrary SUDOKU puzzles</p>
+      </div>
+      <div class="col-5 text-center left-divider right-divider">
+          <h3 class="center">Solution</h3>
+          <p>SUDOKU Solver is an Android application that provides a user interface into which any SUDOKU problem can be entered. It then solves the puzzle whilst providing a colourful visual display of the backtracking algorithm used.</p>
+      </div>
+      <div class="col-2 text-center">
+        <h3 class="center">Technologies</h3>
+        <ul class="technology-list">
+            <li><img class="technology-logo" src="img/android-logo.png"></li>
+            <li><img class="technology-logo" src="img/cpp-logo.png"></li>
+            <li><img class="technology-logo" src="img/qt-logo.png"></li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark text-white-50">
+    <div class="container ">
+
+      <!-- Contact Details -->
+      <div class="col-md-5 mb-5">
+        <h2>Contact</h2>
+        <hr>
+        
+        <div class="row">
+          <div class="col-2 my-auto">
+              <i class="fas fa-home"></i>
+          </div>
+          <div class="col-10 my-auto">
+            <address>
+              9 Kirra Avenue
+              <br>West Lakes Shore
+              <br>5020, SA, Australia
+            </address>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2 my-auto">
+              <abbr title="Phone"><i class="fas fa-university nudge-up-10"></i></abbr>
+          </div>
+          <div class="col-10 my-auto">
+            <address>
+                The University of Adelaide
+            </address>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2 my-auto">
+              <abbr title="Phone"><i class="fas fa-phone nudge-up-10"></i></abbr>
+          </div>
+          <div class="col-10 my-auto">
+            <address>
+                +61 450 265 385
+            </address>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-2 my-auto">
+              <abbr title="Email"><i class="fas fa-envelope nudge-up-10"></i></abbr>
+          </div>
+          <div class="col-10 my-auto">
+            <address>
+                <a class="email-address" href="mailto:#">jackson.dearing@student.adelaide.edu.au</a>
+            </address>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
