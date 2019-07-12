@@ -203,3 +203,24 @@ header img {
 .project-header-hr {
   margin-bottom: 30px;
 }
+
+.content-images {
+  text-align: center;
+}
+
+.first-image {
+  margin-top: 100px;
+}
+
+.content-image {
+  margin-bottom: 50vh;
+  height: 80vh;
+}
+
+.last-image {
+  margin-bottom: 30px;
+}
+
+#emma {
+  height: 100vh;
+}
