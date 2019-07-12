@@ -199,3 +199,7 @@ header img {
   left: calc(50% - 4%);
   filter: brightness(100%);
 }
+
+.project-header-hr {
+  margin-bottom: 30px;
+}
