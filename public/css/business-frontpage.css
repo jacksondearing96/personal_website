@@ -224,3 +224,7 @@ header img {
 #emma {
   height: 100vh;
 }
+
+.demo-button {
+  margin-top: 30px;
+}
