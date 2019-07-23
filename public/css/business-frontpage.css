@@ -17,17 +17,44 @@ h3 {
   float:left;
 }
 
+.clear {
+  clear: both;
+}
+
 .left {
+  clear: both;
   float: left;
-  clear:left;
   text-align: left;
 }
 
 .right {
-  clear: left;
-  clear: right;
+  clear: both;
   float: right;
   text-align: right;
+}
+
+.left-small-right-big {
+  clear: both;
+  float: right;
+  text-align: right;
+}
+
+.divider-left-big-bottom-small {
+  border-left: solid 0.8px lightgrey;
+  border-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .left-small-right-big {
+    clear: both;
+    float: left;
+    text-align: left;
+  }
+
+  .divider-left-big-bottom-small {
+    border-left: 0px;
+    border-bottom: solid 0.8px lightgrey;
+  }
 }
 
 i {
@@ -109,6 +136,11 @@ i {
   width: 125px;
   margin-top: 30px;
   margin-bottom: 20px;
+}
+
+#marathon-logo {
+  max-width: 150px;
+  width: 90px;
 }
 
 #first-company-logo {
