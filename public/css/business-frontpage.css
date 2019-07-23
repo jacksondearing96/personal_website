@@ -174,7 +174,7 @@ i {
 }
 
 .dark {
-  background-color: rgb(32,32,32);
+  background-color: rgb(20,20,20);
 }
 
 .photography-header {
@@ -219,7 +219,8 @@ i {
 
 .content-image {
   margin-bottom: 50vh;
-  height: 90vh;
+  max-width: 95%;
+  max-height: 90vh;
 }
 
 .last-image {
