@@ -1,0 +1,18 @@
+Make server
+.gitignore node_modules
+Push
+Instance
+Sudo yum upgrade
+Sudo yum install git
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.1/install.sh | bash
+
+Close terminal
+Nvm install node
+Clone repo
+Npm update
+Npm start (check)
+npm install -g pm2
+Pm2 start app.js
+Pm2 save
+Pm2 startup
+
