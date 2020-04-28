@@ -148,10 +148,6 @@ i {
   width: 90px;
 }
 
-#first-company-logo {
-  margin-top:0px;
-}
-
 .left-divider {
   border-left: solid 0.8px lightgrey;
 }
@@ -175,6 +171,10 @@ i {
 .project-icon {
   height: 30px;
   margin-bottom: 30px;
+}
+
+.sub-auto-icon {
+  height: 40px;
 }
 
 .center {
@@ -214,16 +214,6 @@ i {
   background-color: rgb(20,20,20);
 }
 
-.photography-header {
-  height: calc(100vh - 56px);
-  background: url("../img/photos/adelaide-header.jpg") no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  filter: brightness(35%);
-}
-
 .navbar {
   position: absolute;
 }
@@ -233,39 +223,8 @@ i {
   letter-spacing: 0.1em;
 }
 
-#camera-icon {
-  width: 8%;
-  z-index: 100;
-  position: absolute;
-  top: calc(50% - 4%);
-  left: calc(50% - 4%);
-  filter: brightness(100%);
-}
-
 .project-header-hr {
   margin-bottom: 30px;
-}
-
-.content-images {
-  text-align: center;
-}
-
-.first-image {
-  margin-top: 100px;
-}
-
-.content-image {
-  margin-bottom: 50vh;
-  max-width: 95%;
-  max-height: 90vh;
-}
-
-.last-image {
-  margin-bottom: 30px;
-}
-
-#emma {
-  height: 100vh;
 }
 
 .demo-button {
@@ -274,4 +233,67 @@ i {
 
 #google-logo {
   margin-top: 0px;
+}
+
+.cea-crop {
+  max-width: 200px;
+  height: 70px;
+  margin-top: -70px;
+  overflow: hidden;
+}
+
+.cea-crop img {
+  max-width: 165px;
+  margin-right: -10px;
+}
+
+.au-sport-logo-container {
+  max-width: 150px;
+  max-height: 80px;
+  overflow:hidden;
+}
+
+.au-sport-logo-container img {
+  max-width: 160px;
+  margin-right: -70px;
+}
+
+.marathon-img-container {
+  max-height: 42px;
+  overflow: hidden;
+}
+
+.marathon-img-container img {
+  max-height: 100px;
+  margin-top: -30px;
+}
+
+.job {
+  margin-top: 20px;
+}
+
+.cea-job {
+  margin-top:50px;
+}
+
+.cea-job-description {
+  margin-top: 20px;
+}
+
+#maptek-logo {
+  height: 60px;
+  max-width: 100px;
+  margin-top: 0px;
+}
+
+.google-job {
+  margin-top: 20px;
+}
+
+.adelaide-logo {
+  margin-top: 20px;
+}
+
+.saab-logo {
+  margin-top: 10px;
 }
