@@ -1,0 +1,5 @@
+Flask==1.1.2
+uWSGI==2.0.19.1
+webapp2
+
+webob

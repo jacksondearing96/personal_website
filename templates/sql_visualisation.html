@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8' />
+    <title>SQL Interactive Visualisation</title>
+    <link rel='shortcut icon' href='  https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTRfGFtKPoAyirIntSG7iyEdAuLswzdKImXyw&usqp=CAU
+  ' type='image/x-icon' />
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/sql_visualisation.css') }}">
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oxygen+Mono&display=swap' rel='stylesheet'>
+</head>
+
+<body>
+    <span id="loading-container">
+        <img class='rotate' src="https://cdn3.iconfinder.com/data/icons/mobile-banking-ver-4b/100/1-57-512.png">
+    </span>
+
+    <header>
+        <h1>SQL Interactive Visualisation</h1>
+    </header>
+
+    <div id='visualisation-container'>
+        <svg></svg>
+    </div>
+
+    <script src='https://d3js.org/d3.v4.js'></script>
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+    <script src="https://rawgit.com/farzher/fuzzysort/master/fuzzysort.js"></script>
+    <script src='static/js/configuration.js'></script>
+    <script src='static/js/dataStructureConversion.js'></script>
+    <script src='static/js/demoData.js'></script>
+    <script src='static/js/fileUploader.js'></script>
+    <script src='static/js/graphGeometry.js'></script>
+    <script src='static/js/graphInitialisation.js'></script>
+    <script src='static/js/graphLineage.js'></script>
+    <script src='static/js/graphNodes.js'></script>
+    <script src='static/js/graphStyle.js'></script>
+    <script src='static/js/search.js'></script>
+    <script src='static/js/util.js'></script>
+    <script src='static/js/index.js'></script>
+</body>
+
+</html>
