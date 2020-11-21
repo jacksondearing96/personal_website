@@ -1,6 +1,2 @@
-*/**.DS_Store
-node_modules
-public/.DS_Store
-JacksKeyPair.pem
-public/.DS_Store
-public/.DS_Store
+.DS_Store
+lib/
