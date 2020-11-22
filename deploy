@@ -1,0 +1,4 @@
+#!/bin/bash
+pip install -r requirements.txt -t lib/
+yes | ~/google-cloud-sdk/bin/gcloud app deploy
+~/google-cloud-sdk/bin/gcloud app browse
