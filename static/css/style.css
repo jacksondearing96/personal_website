@@ -1,3 +1,7 @@
+body, h1, h2, h3, h4, a {
+  font-weight: 300 !important;
+}
+
 .contact-info {
     text-align: left;
     margin-top: 50px;
@@ -305,7 +309,8 @@
 }
 
 .job-description li {
-  display: block;
+  display: list-item;
+  margin-left: 30px;
 }
 
 .container {
@@ -318,4 +323,28 @@
 
 .projects button {
   margin-top: 40px !important;
+}
+
+.volunteering ul {
+  text-align: left;
+  padding-left: 50px;
+}
+
+.volunteering li {
+  list-style-type: circle;
+  display: list-item;
+  margin-top: 3px;
+}
+
+.volunteering h3 {
+  display: block;
+}
+
+#red-cross-logo {
+  height: 50px;
+  width: 50px;
+}
+
+.social-network li {
+  display: inline;
 }

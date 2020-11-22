@@ -6,22 +6,21 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
     <link
       href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900"
       rel="stylesheet"
     />
+    <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Oxygen+Mono&display=swap' rel='stylesheet'>
+
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 
     <title>Jackson Dearing</title>
     <link rel="icon" type="image/png" href="https://cdn.iconscout.com/icon/free/png-512/code-280-460136.png"/>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
-
-    <!-- Additional CSS Files -->
+    <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
     <script src="https://use.fontawesome.com/d52a47e7a1.js"></script>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/templatemo-style.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/owl.css') }}">
     <link rel="stylesheet" href="{{ url_for('static', filename='css/lightbox.css') }}">
@@ -29,7 +28,6 @@
 
   <body>
     <div id="page-wraper">
-      <!-- Sidebar Menu -->
       <div class="responsive-nav">
         <i class="fa fa-bars" id="menu-toggle"></i>
         <div id="menu" class="menu">
@@ -403,7 +401,6 @@
                     <li><img class="technology-logo" src="https://vignette.wikia.nocookie.net/logopedia/images/2/24/Visual_studio_2017.png/revision/latest/scale-to-width-down/300?cb=20190513213134">
                     </li>
                     <li><img class="technology-logo" src="https://cdn.worldvectorlogo.com/logos/subversion.svg"></li>
-                    <li>GTEST</li>
                 </ul>
             </div>
         </div>
@@ -422,8 +419,23 @@
         </div>
   
         <div class="row align-items-center text-center">
-  
+
             <div class="col-md-4">
+                <img class="company-logo left-small-right-big" src="https://upload.wikimedia.org/wikipedia/en/4/45/Adelaide_University_Football_Club_Logo.png">
+                <br>
+                <h3 class="clear left-small-right-big">Adelaide University Football Club</h3>
+                <br>
+                <ul class="clear left-small-right-big">
+                    <li>Div 1 A Grade Player</li>
+                    <li>Executive Committee Member</li>
+                    <li>Club Web Developer (<a target="_blank" href="http://uniblacksfc.com.au">uniblacksfc.com.au</a>)</li>
+                    <li>Database Maintainer (database containing 60 years of historical club data)</li>
+                    <li>Developer of custom software</li>
+                    </ul>
+            </div>
+
+            <div class="col-md-4">
+                <div>
                 <div class="au-sport-logo-container company-logo left-small-right-big">
                     <img class="company-logo left-small-right-big" src="static/images/au-sport.png">
                 </div>
@@ -431,42 +443,32 @@
                 <h3 class="clear left-small-right-big">Adelaide University Sport</h3>
                 <p class="clear left-small-right-big">Board Member - Student Representative
                     <br>Intervarsity Football Vice Captain</p>
+                    </div>
+
+                    <div>
+                        <img id="uni-games-logo" class="company-logo left-small-right-big" src="https://upload.wikimedia.org/wikipedia/en/d/d8/Uni_Games_logo.png">
+                        <br>
+                        <h3 class="clear left-small-right-big">Australian Uni Games</h3>
+                        <p class="clear left-small-right-big">Athlete Competitor</p>
+                    </div>
             </div>
-  
+ 
             <div class="col-md-4">
-                <img class="company-logo left-small-right-big" src="https://upload.wikimedia.org/wikipedia/en/4/45/Adelaide_University_Football_Club_Logo.png">
-                <br>
-                <h3 class="clear left-small-right-big">Adelaide University Football Club</h3>
-                <br>
-                <p class="clear left-small-right-big">Div 1 A Grade Player
-                    <br>Executive Committee Member 2017-18</p>
-            </div>
-  
-            <div class="col-md-4">
-                <img class="company-logo left-small-right-big" src="http://lofrev.net/wp-content/photos/2016/06/red_cross_logo.png">
+              <div>
+                <img id='red-cross-logo' class="company-logo left-small-right-big" src="http://lofrev.net/wp-content/photos/2016/06/red_cross_logo.png">
                 <br>
                 <h3 class="clear left-small-right-big">Red Cross Blood Service</h3>
                 <br>
                 <p class="clear left-small-right-big">10+ donations of blood and plasma</p>
             </div>
-  
-        </div>
-  
-        <div class="row align-items-center text-center justify-space-around">
-  
-            <div class="col-md-4">
-                <img id="uni-games-logo" class="company-logo left-small-right-big" src="https://upload.wikimedia.org/wikipedia/en/d/d8/Uni_Games_logo.png">
-                <br>
-                <h3 class="clear left-small-right-big">Australian Uni Games</h3>
-                <p class="clear left-small-right-big">Athlete Competitor</p>
-            </div>
-  
-            <div class="col-md-4">
+
+            <div>
                     <img id="marathon-logo" class="company-logo left-small-right-big" src="static/images/sarrc.png">
                 <br>
                 <p class="clear left-small-right-big">Marathon Competitor
                     <br>Research project completed:
                     <br><i>"Effective Training Methods for a First Marathon"</i></p>
+            </div>
             </div>
   
         </div>
@@ -477,7 +479,7 @@
       <section class="section contact-me" data-section="section6">
         <div class="container">
           <div class="section-heading">
-            <h2>Contact Me</h2>
+            <h2>Contact</h2>
             <div class="line-dec"></div>
           
               <table class="contact-info">
@@ -507,8 +509,6 @@
       </section>
     </div>
 
-    <!-- Scripts -->
-    <!-- Bootstrap core JavaScript -->
     <script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
 
@@ -517,7 +517,6 @@
     <script src="static/js/lightbox.js"></script>
     <script src="static/js/custom.js"></script>
     <script>
-      //according to loftblog tut
       $(".main-menu li:first").addClass("active");
 
       var showSection = function showSection(section, isAnimate) {
