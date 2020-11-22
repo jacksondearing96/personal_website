@@ -1,285 +1,285 @@
 body {
-    text-align: center;
-    background-color: rgb(30, 30, 30);
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(200, 200, 200);
+  text-align: center;
+  background-color: rgb(30, 30, 30);
+  font-family: "Montserrat", sans-serif;
+  color: rgb(200, 200, 200);
 }
 
 svg {
-    margin: 0 auto;
-    display: block;
-    overflow: auto;
+  margin: 0 auto;
+  display: block;
+  overflow: auto;
 }
 
 #visualisation-container {
-    margin: 0 auto;
-    margin-top: 20px;
-    display: none;
-    border: 1px solid black;
-    overflow: auto !important;
-    background-color: rgb(30, 30, 30);
-    width: 95%;
-    height: 80vh;
+  margin: 0 auto;
+  margin-top: 20px;
+  display: none;
+  border: 1px solid black;
+  overflow: auto !important;
+  background-color: rgb(30, 30, 30);
+  width: 95%;
+  height: 80vh;
 }
 
 header {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 h1 {
-    display: inline-block;
-    margin: 0px;
-    margin-bottom: 20px;
+  display: inline-block;
+  margin: 0px;
+  margin-bottom: 20px;
 }
 
 #github-logo {
-    margin-top: 6px;
-    display: inline-block;
-    height: 30px;
-    opacity: 0.5;
-    float: right;
-    margin-right: 20px;
+  margin-top: 6px;
+  display: inline-block;
+  height: 30px;
+  opacity: 0.5;
+  float: right;
+  margin-right: 20px;
 }
 
 #github-logo:hover {
-    opacity: 1;
+  opacity: 1;
 }
 
 #file-upload-container {
-    margin: 0 auto;
-    border-radius: 10px;
-    background-color: rgb(200, 200, 200);
-    padding: 15px;
-    width: 95%;
-    max-width: 1000px;
+  margin: 0 auto;
+  border-radius: 10px;
+  background-color: rgb(200, 200, 200);
+  padding: 15px;
+  width: 95%;
+  max-width: 1000px;
 }
 
 #file-upload-container .row {
-    display: block;
-    width: 100%;
-    display: flex;
-    margin: 0px;
-    justify-content: space-around;
+  display: block;
+  width: 100%;
+  display: flex;
+  margin: 0px;
+  justify-content: space-around;
 }
 
 #file-upload-container input {
-    display: none;
+  display: none;
 }
 
 #file-upload-container button {
-    background-color: dodgerblue;
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 800;
-    border-radius: 10px;
-    height: 35px;
-    font-size: 16px;
-    color: white;
-    border: 0px;
-    padding-right: 10px;
-    padding-left: 10px;
-    cursor: pointer;
+  background-color: dodgerblue;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  border-radius: 10px;
+  height: 35px;
+  font-size: 16px;
+  color: white;
+  border: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
 }
 
 #file-upload-container button[disabled] {
-    border: 1px solid #999999;
-    background-color: #cccccc;
-    color: #666666;
-    cursor: default;
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: default;
 }
 
 #file-list-container {
-    display: none;
-    margin-top: 20px;
-    font-weight: 800;
-    color: rgb(20, 20, 20);
+  display: none;
+  margin-top: 20px;
+  font-weight: 800;
+  color: rgb(20, 20, 20);
 }
 
 .file-name-container {
-    text-align: center;
-    display: inline-block;
+  text-align: center;
+  display: inline-block;
 }
 
 .file-name-container p {
-    display: inline;
-    float: right;
-    margin: 0px;
-    margin-top: 3px;
+  display: inline;
+  float: right;
+  margin: 0px;
+  margin-top: 3px;
 }
 
 .tick,
 .cross {
-    display: inline;
-    float: left;
+  display: inline;
+  float: left;
 }
 
 .tick {
-    height: 25px;
-    padding-right: 8px;
+  height: 25px;
+  padding-right: 8px;
 }
 
 .cross {
-    height: 15px;
-    padding-right: 8px;
-    padding-top: 5px;
+  height: 15px;
+  padding-right: 8px;
+  padding-top: 5px;
 }
 
 #search-input {
-    display: inline-block !important;
-    font-family: 'Montserrat', sans-serif;
-    color: rgb(0, 0, 0);
-    font-weight: 2000;
-    border-radius: 10px;
-    height: 33px;
-    width: 100%;
-    font-size: 16px;
-    border: 0px;
-    padding-right: 10px;
-    padding-left: 10px;
+  display: inline-block !important;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(0, 0, 0);
+  font-weight: 2000;
+  border-radius: 10px;
+  height: 33px;
+  width: 100%;
+  font-size: 16px;
+  border: 0px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 
 #search-input:focus {
-    border: 0px;
-    outline: none;
+  border: 0px;
+  outline: none;
 }
 
 .top-level-node:hover,
 .column:hover,
 .label:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .column {
-    display: block;
+  display: block;
 }
 
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 60px;
-    height: 34px;
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
 }
 
 .switch input {
-    display: none;
+  display: none;
 }
 
 .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgb(60, 60, 60);
-    -webkit-transition: 0.4s;
-    transition: 0.4s;
-    opacity: 0.5;
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(60, 60, 60);
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  opacity: 0.5;
 }
 
 .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
 }
 
-input:checked+.slider {
-    background-color: dodgerblue;
+input:checked + .slider {
+  background-color: dodgerblue;
 }
 
-input:focus+.slider {
-    box-shadow: 0 0 1px dodgerblue;
+input:focus + .slider {
+  box-shadow: 0 0 1px dodgerblue;
 }
 
-input:checked+.slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(26px);
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
 }
 
 .slider.round {
-    border-radius: 34px;
+  border-radius: 34px;
 }
 
 .slider.round:before {
-    border-radius: 50%;
+  border-radius: 50%;
 }
 
 input[disabled] {
-    opacity: 1.0;
+  opacity: 1;
 }
 
 .autocomplete {
-    position: relative;
-    display: inline-block;
+  position: relative;
+  display: inline-block;
 }
 
 .autocomplete-items {
-    color: rgb(0, 0, 0);
-    position: absolute;
-    border: 1px solid #d4d4d4;
-    border-bottom: none;
-    border-top: none;
-    z-index: 99;
-    width: 261.33px;
-    /* Position the autocomplete items to be the same width as the container */
-    top: 100%;
-    left: 0;
-    right: 0;
+  color: rgb(0, 0, 0);
+  position: absolute;
+  border: 1px solid #d4d4d4;
+  border-bottom: none;
+  border-top: none;
+  z-index: 99;
+  width: 261.33px;
+  /* Position the autocomplete items to be the same width as the container */
+  top: 100%;
+  left: 0;
+  right: 0;
 }
 
 .autocomplete-items div {
-    padding: 5px;
-    cursor: pointer;
-    background-color: #ffffff;
-    border-bottom: 1px solid #d4d4d4;
+  padding: 5px;
+  cursor: pointer;
+  background-color: #ffffff;
+  border-bottom: 1px solid #d4d4d4;
 }
 
 /*when hovering an item:*/
 .autocomplete-items div:hover {
-    background-color: #e9e9e9;
+  background-color: #e9e9e9;
 }
 
 /*when navigating through the items using the arrow keys:*/
 .autocomplete-active {
-    background-color: DodgerBlue !important;
-    color: #ffffff;
+  background-color: DodgerBlue !important;
+  color: #ffffff;
 }
 
 #loading-container img {
-    height: 70px;
-    position: fixed;
-    top: 50%;
-    bottom: 50%;
-    left: 50%;
-    right: 50%;
+  height: 70px;
+  position: fixed;
+  top: 50%;
+  bottom: 50%;
+  left: 50%;
+  right: 50%;
 }
 
 #loading-container {
-    background-color: rgba(100, 100, 100, 0.6);
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100vh;
-    z-index: 999;
-    display: none;
+  background-color: rgba(100, 100, 100, 0.6);
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100vh;
+  z-index: 999;
+  display: none;
 }
 
 .rotate {
-    animation: rotation 2s infinite linear;
+  animation: rotation 2s infinite linear;
 }
 
 @keyframes rotation {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(359deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
 }

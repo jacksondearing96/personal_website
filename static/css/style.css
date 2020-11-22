@@ -1,17 +1,22 @@
-body, h1, h2, h3, h4, a {
+body,
+h1,
+h2,
+h3,
+h4,
+a {
   font-weight: 300 !important;
 }
 
 .contact-info {
-    text-align: left;
-    margin-top: 50px;
-    margin: 50px auto;
+  text-align: left;
+  margin-top: 50px;
+  margin: 50px auto;
 }
 
 .contact-info td {
-    padding-left: 17px;
-    padding-bottom: 10px;
-    color: white;
+  padding-left: 17px;
+  padding-bottom: 10px;
+  color: white;
 }
 
 .section-heading {
@@ -19,8 +24,8 @@ body, h1, h2, h3, h4, a {
 }
 
 #top-heading {
-    height: 100vh;
-    padding-top: 180px;
+  height: 100vh;
+  padding-top: 180px;
 }
 
 #top-heading .line-dec {
@@ -28,33 +33,31 @@ body, h1, h2, h3, h4, a {
 }
 
 #skills-icons {
-    margin-bottom: 100px;
-    text-align: center;
-    height: 100vh;
+  margin-bottom: 100px;
+  text-align: center;
+  height: 100vh;
 }
 
 #skills-icons h2 {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 #skills-icons img {
-    margin: 10px;
+  margin: 10px;
 }
 
 #github-contributions {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 #github-contributions {
-    color: lightgrey !important;
-    margin-top: 50px;
+  color: lightgrey !important;
+  margin-top: 50px;
 }
 
 .contrib-number {
-    color: white !important;
+  color: white !important;
 }
-
-  
 
 .achievement-list li {
   line-height: 2;
@@ -64,246 +67,242 @@ body, h1, h2, h3, h4, a {
 .achievement-list ul {
   margin-left: 20px !important;
 }
-  .clear {
-    clear: both;
-  }
-  
-  .left {
+.clear {
+  clear: both;
+}
+
+.left {
+  clear: both;
+  float: left;
+  text-align: left;
+}
+
+.right {
+  clear: both;
+  float: right;
+  text-align: right;
+}
+
+.left-small-right-big {
+  clear: both;
+  float: right;
+  text-align: right;
+}
+
+.divider-left-big-bottom-small {
+  border-left: solid 0.8px lightgrey;
+  border-bottom: 0px;
+}
+
+@media only screen and (max-width: 767px) {
+  .left-small-right-big {
     clear: both;
     float: left;
     text-align: left;
   }
-  
-  .right {
-    clear: both;
-    float: right;
-    text-align: right;
-  }
-  
-  .left-small-right-big {
-    clear: both;
-    float: right;
-    text-align: right;
-  }
-  
+
   .divider-left-big-bottom-small {
-    border-left: solid 0.8px lightgrey;
-    border-bottom: 0px;
+    border-left: 0px;
+    border-bottom: solid 0.8px lightgrey;
   }
-  
-  @media only screen and (max-width: 767px) {
-    .left-small-right-big {
-      clear: both;
-      float: left;
-      text-align: left;
-    }
-  
-    .divider-left-big-bottom-small {
-      border-left: 0px;
-      border-bottom: solid 0.8px lightgrey;
-    }
-  }
-  
-  i {
-    font-size: 23px;
-    margin: 10px;
-  }
-  
-  .header-icon:hover {
-    color: white !important;
-  }
-  
-  .header-icon {
-    font-size: 23px;
-  }
-  
-  #more-info {
-    display: inline;
-    margin-left: 15px;
-  }
-  
-  .pointer:hover
-  {
-    cursor: pointer;
-  }
-  
-  .vcenter {
-    display: inline-block;
-    vertical-align: middle;
-    float: none;
-  }
-  
-  .nudge-up-10 {
-    margin-top: -10px;
-  }
-  
-  .email-address {
-    color: inherit;
-  }
-  
-  .card {
-    border: none;
-  }
-  
-  .card-img-top {
-    height:40px;
-    width:40px;
-    margin-top:25px;
-    margin-bottom:25px;
-    border-width:solid 1px;
-    border-color: blue;
-  }
-  
-  .card-footer {
-    width: 100%;
-    border: transparent;
-    background-color: transparent;
-  }
-  
-  .title-icon {
-    width: 35px;
-    height: 35px;
-    margin-bottom: 8px;
-    margin-top: 60px;
-  }
-  
-  #first-title-icon {
-    margin-top: 0px;
-  }
-  
-  .company-logo {
-    max-height:70px;
-    max-width:70px;
-    margin-top:40px;
-    margin-bottom:10px;
-  }
-  
-  #google-logo {
-    max-height: 55px;
-    max-width: 55px;
-  }
-  
-  #uni-games-logo {
-    max-width: 150px;
-    width: 125px;
-    margin-top: 30px;
-    margin-bottom: 20px;
-  }
-  
-  
-  .left-divider {
-    border-left: solid 0.8px lightgrey;
-  }
-  
-  .right-divider {
-    border-right: solid 0.8px lightgrey;
-  }
-  
-  #contact-info {
-    margin-bottom:0px !important;
-  }
-  
-  i {
-    font-size: inherit;
-  }
-  
-  .project-icon {
-    height: 30px;
-    margin-bottom: 30px;
-  }
-  
-  .sub-auto-icon {
-    height: 40px;
-  }
-  
-  .center {
-    float: none;
-  }
-  
-  .top-buffer {
-    margin-top: 40px;
-  }
-  
-  .bottom-buffer {
-    margin-bottom: 40px;
-  }
-  
-  .project-row {
-    margin-top: 100px;
-  }
-  
-  .technology-list li {
-    list-style-type: none;
-    margin-left: 0px;
-    margin-top: 15px;
-    margin-bottom: 5px;
-  }
+}
 
-  .technology-list img {
-    max-height: 50px;
-    max-width: 50px;
-  }
-  
-  #puppeteer-logo {
-    max-height: 80px;
-    height: 80px;
-  }
-  
-  .dark {
-    background-color: rgb(20,20,20);
-  }
-  
-  .navbar {
-    position: absolute;
-  }
-  
-  .name {
-    color: white;
-    letter-spacing: 0.1em;
-  }
-  
-  .project-header-hr {
-    margin-bottom: 30px;
-  }
-  
-  .demo-button {
-    margin-top: 30px;
-    color: #a43f49;
-  }
-  
-  #google-logo {
-    margin-top: 0px;
-  }
-  
-  
-  .job {
-    margin-top: 20px;
-  }
-  
-  
-  .cea-job-description {
-    margin-top: 20px;
-  }
-  
-  #maptek-logo {
-    height: 60px;
-    max-width: 100px;
-    margin-top: 0px;
-  }
-  
-  .google-job {
-    margin-top: 20px;
-  }
-  
-  .adelaide-logo {
-    margin-top: 20px;
-  }
-  
-  .saab-logo {
-    margin-top: 10px;
-  }
+i {
+  font-size: 23px;
+  margin: 10px;
+}
 
-.job-description ul  {
+.header-icon:hover {
+  color: white !important;
+}
+
+.header-icon {
+  font-size: 23px;
+}
+
+#more-info {
+  display: inline;
+  margin-left: 15px;
+}
+
+.pointer:hover {
+  cursor: pointer;
+}
+
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+
+.nudge-up-10 {
+  margin-top: -10px;
+}
+
+.email-address {
+  color: inherit;
+}
+
+.card {
+  border: none;
+}
+
+.card-img-top {
+  height: 40px;
+  width: 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border-width: solid 1px;
+  border-color: blue;
+}
+
+.card-footer {
+  width: 100%;
+  border: transparent;
+  background-color: transparent;
+}
+
+.title-icon {
+  width: 35px;
+  height: 35px;
+  margin-bottom: 8px;
+  margin-top: 60px;
+}
+
+#first-title-icon {
+  margin-top: 0px;
+}
+
+.company-logo {
+  max-height: 70px;
+  max-width: 70px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#google-logo {
+  max-height: 55px;
+  max-width: 55px;
+}
+
+#uni-games-logo {
+  max-width: 150px;
+  width: 125px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.left-divider {
+  border-left: solid 0.8px lightgrey;
+}
+
+.right-divider {
+  border-right: solid 0.8px lightgrey;
+}
+
+#contact-info {
+  margin-bottom: 0px !important;
+}
+
+i {
+  font-size: inherit;
+}
+
+.project-icon {
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+.sub-auto-icon {
+  height: 40px;
+}
+
+.center {
+  float: none;
+}
+
+.top-buffer {
+  margin-top: 40px;
+}
+
+.bottom-buffer {
+  margin-bottom: 40px;
+}
+
+.project-row {
+  margin-top: 100px;
+}
+
+.technology-list li {
+  list-style-type: none;
+  margin-left: 0px;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.technology-list img {
+  max-height: 50px;
+  max-width: 50px;
+}
+
+#puppeteer-logo {
+  max-height: 80px;
+  height: 80px;
+}
+
+.dark {
+  background-color: rgb(20, 20, 20);
+}
+
+.navbar {
+  position: absolute;
+}
+
+.name {
+  color: white;
+  letter-spacing: 0.1em;
+}
+
+.project-header-hr {
+  margin-bottom: 30px;
+}
+
+.demo-button {
+  margin-top: 30px;
+  color: #a43f49;
+}
+
+#google-logo {
+  margin-top: 0px;
+}
+
+.job {
+  margin-top: 20px;
+}
+
+.cea-job-description {
+  margin-top: 20px;
+}
+
+#maptek-logo {
+  height: 60px;
+  max-width: 100px;
+  margin-top: 0px;
+}
+
+.google-job {
+  margin-top: 20px;
+}
+
+.adelaide-logo {
+  margin-top: 20px;
+}
+
+.saab-logo {
+  margin-top: 10px;
+}
+
+.job-description ul {
   list-style-type: circle !important;
   margin-left: 10px;
 }
